@@ -1,0 +1,27 @@
+# Dependencies
+/vendor/
+
+# Sensitif / Kredensial Pribadi (Password, SMTP, Token)
+mail_config.php
+# config.php # Buka komentar ini jika config database Anda berisi password produksi
+
+# Environment & Config local
+.env
+*.local
+
+# IDE & Editor
+.vscode/
+.idea/
+.gemini/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS Generated
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
